@@ -1,15 +1,14 @@
 body {
-    background-image: url("../imagem/forest-1402418.jpg");
+    background-image: url("../imagem/forest-1402418.jpg"); /*imagem de fundo*/
     background-size: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; /*para alinhar o conteúdo no centro*/
     align-items: center;
     height: 100vh;
-    font-family: Arial, sans-serif;
 }
 
 h1 {
-    padding-right: 80px;
+    padding-right: 80px; /*para dar uma distância entre o título e o formulário*/
     color: #237bed;
     font-family: 'Tilt Prism', cursive;
 }
@@ -17,7 +16,7 @@ h1 {
 form {
     font-family: 'Roboto Mono', monospace;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*para ficar organizado em coluna*/
     align-items: center;
     padding: 20px;
     border: 1px solid #ccc;
